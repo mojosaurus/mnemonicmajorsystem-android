@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demimojo.majorsystem.quiz" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.demimojo.majorsystem.quiz.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.demimojo.majorsystem.quiz.activity.LearnNumbers"
+            android:label="@string/title_activity_learn_numbers" >
+        </activity>
+        <activity
+            android:name="com.demimojo.majorsystem.quiz.activity.LearnImages"
+            android:label="@string/title_activity_learn_images" >
+        </activity>
+    </application>
+
+</manifest>
